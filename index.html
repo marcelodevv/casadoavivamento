@@ -5,21 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <title>Casa do Avivamento</title>
 </head>
 <body>
     <header id="header">
         <div class="header-container">
             <div class="header-logo">
-                <img src="./assets/logo.png" alt="Igreja Casa do Avivamento LOGO" width="100px">
+            <img src="./assets/logo.png" alt="Igreja Casa do Avivamento LOGO" width="100px">
             </div>
+
+            <div class="header-hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+            </div>
+
             <div class="header-navbar">
-                <ul>
-                    <li><a href="">INICIO</a></li>
-                    <li><a href="">PROJETOS</a></li>
-                    <li><a href="">CRONOGRAMA</a></li>
-                    <li><a href="">SOBRE</a></li>
-                </ul>
+            <ul>
+                <li><a href="#">INICIO</a></li>
+                <li><a href="#cronograma">CRONOGRAMA</a></li>
+                <li><a href="">SOBRE</a></li>
+                <li><a href="#localizacao">LOCALIZAÇÃO</a></li>
+            </ul>
             </div>
         </div>
     </header>
@@ -31,9 +37,9 @@
             </div>
             <div class="backdoor-info">
                 <h1>IGREJA CASA DO AVIVAMENTO</h1>
-                <h2 style="color: white">SEJA MUITO BEM-VINDO</h2>
+                <h2 style="color: black">SEJA MUITO BEM-VINDO</h2>
                 <hr>
-                <p style="color: white">É uma alegria ter você aqui. Que este espaço seja um canal de bênçãos para sua vida, onde você possa conhecer mais sobre nossa igreja, fortalecer sua fé e se sentir acolhido no amor de Cristo. Estamos aqui para servir e caminhar juntos na presença de Deus!</p>
+                <p style="color: black">É uma alegria ter você aqui. Que este espaço seja um canal de bênçãos para sua vida, onde você possa conhecer mais sobre nossa igreja, fortalecer sua fé e se sentir acolhido no amor de Cristo. Estamos aqui para servir e caminhar juntos na presença de Deus!</p>
                 <button><a href="#">NOSSA LOCALIZAÇÃO</a></button>
             </div>
         </div>
@@ -50,6 +56,119 @@
             </div>
         </div>
     </section>
+
+    <section id="cronograma">
+        <h2>NOSSO CRONOGRAMA</h2>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                    <th>Dia</th>
+                    <th>Evento</th>
+                    <th>Horário</th>
+                    <th>Local</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td>Segunda-feira</td>
+                    <td class="event">Encontro de Casais</td>
+                    <td>20h00</td>
+                    <td>Igreja Casa do Avivamento</td>
+                    </tr>
+                    <tr>
+                    <td>Terça-feira</td>
+                    <td class="event">Sem Atividades</td>
+                    <td>N/A</td>
+                    <td>N/A</td>
+                    </tr>
+                    <tr>
+                    <td>Quarta-feira</td>
+                    <td class="event">Culto de Intercessão</td>
+                    <td>20h00</td>
+                    <td>Igreja Casa do Avivamento</td>
+                    </tr>
+                    <tr>
+                    <td>Quinta-feira</td>
+                    <td class="event">Curso Rever (Apenas Inscritos)</td>
+                    <td>20h00</td>
+                    <td>Igreja Casa do Avivamento</td>
+                    </tr>
+                    <tr>
+                    <td>Sexta-feira</td>
+                    <td class="event">Encontro de Jovens</td>
+                    <td>20h00</td>
+                    <td>Igreja Casa do Avivamento</td>
+                    </tr>
+                    <tr>
+                    <td>Sábado</td>
+                    <td class="event">Em torno da mesa: CEIA</td>
+                    <td>20h00</td>
+                    <td>Igreja Casa do Avivamento</td>
+                    </tr>
+                    <tr>
+                    <td>Domingo</td>
+                    <td class="event">Culto Aviva-Nos</td>
+                    <td>18h00</td>
+                    <td>Igreja Casa do Avivamento</td>
+                    </tr>
+                </tbody>
+            </table>
+    </section>
+
+    <section id="localizacao">
+        <div class="localizacao-main">
+            <div class="localizacao-container">
+                <h1>NOSSA LOCALIZAÇÃO</h1>
+                <p>Av. Vital Brasil, 1350 - Chácara Bela Vista, Poá - SP, 08551-430</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.644513076272!2d-46.34873132378979!3d-23.509310459683707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce7b3e855effa5%3A0x52f439007384b5a8!2sCASA%20DO%20AVIVAMENTO!5e0!3m2!1sen!2sbr!4v1748709928220!5m2!1sen!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+    <div class="footer-container">
+        <div class="footer-logo">
+        <img src="./assets/logo.png" alt="Logo Igreja" width="80" />
+        </div>
+
+        <div class="footer-links">
+        <h4>Links</h4>
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Projetos</a></li>
+            <li><a href="#">Cronograma</a></li>
+            <li><a href="#">Sobre</a></li>
+        </ul>
+        </div>
+
+        <div class="footer-contact">
+        <h4>Contato</h4>
+        <p>Pastores: @prxikinho @cidaoliveira8170</p>
+        <p>Telefone: (11) 4634-1869</p>
+        <p>Endereço: Av. Vital Brasil, 1350 - Chácara Bela Vista, Poá - SP, 08551-430</p>
+        </div>
+    </div>
+
+    <div class="footer-social">
+    <a href="https://www.facebook.com/casadoavivamento1/?locale=pt_BR" target="_blank" aria-label="Facebook">
+        <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://www.instagram.com/igreja_casa_do_avivamento/?hl=en" target="_blank" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://www.youtube.com/@IgrejaCasadoAvivamento" target="_blank" aria-label="YouTube">
+        <i class="fab fa-youtube"></i>
+    </a>
+    <a href="https://wa.me/" target="_blank" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2025 Casa do Avivamento. Todos os direitos reservados.</p>
+    </div>
+    </footer>
 
     <script src="./js/index.js"></script>
 </body>
