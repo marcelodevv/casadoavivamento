@@ -127,10 +127,10 @@ Desenvolvido com dedicação por **Marcelo Souza**.
 https://github.com/marcelodevv
 
 - LinkedIn:  
-https://www.linkedin.com/in/marcelo-souza-223151232/
+https://www.linkedin.com/in/marcelodevv
 
 - Instagram:  
-https://instagram.com/marceloocode
+https://instagram.com/marlou.dev
 
 ---
 
